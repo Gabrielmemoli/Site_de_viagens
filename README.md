@@ -6,8 +6,9 @@
 <strong> Descrição:</strong><br>
   O TravelDreams é um site de viagens que tem como objetivo proporcionar aos usuários uma experiência única ao planejar suas próximas aventuras. Com uma interface amigável e recursos avançados, o site oferece uma ampla gama de destinos, pacotes turísticos e informações úteis para ajudar os viajantes a explorar o mundo de maneira simples e conveniente.  
 
-<strong>Funcionalidades Principais:</strong><br> 
-  Pesquisa de Destinos: Os usuários podem pesquisar destinos por nome, localização ou categoria, permitindo que encontrem facilmente os locais que desejam visitar.
+<strong>Funcionalidades Principais:</strong><br><br>
+  <strong>Pesquisa de Destinos:</strong><br> 
+    Os usuários podem pesquisar destinos por nome, localização ou categoria, permitindo que encontrem facilmente os locais que desejam visitar.
 
   <strong>Pacotes Turísticos:</strong><br>
     O site oferece uma variedade de pacotes turísticos pré-configurados, incluindo opções de hospedagem, transporte e atividades específicas para cada destino.
