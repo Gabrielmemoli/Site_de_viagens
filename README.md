@@ -4,7 +4,7 @@
 </div>
 
 <p>
-Descrição:
+<strong> Descrição:</strong>
 O TravelDreams é um site de viagens que tem como objetivo proporcionar aos usuários uma experiência única ao planejar suas próximas aventuras. Com uma interface amigável e recursos avançados, o site oferece uma ampla gama de destinos, pacotes turísticos e informações úteis para ajudar os viajantes a explorar o mundo de maneira simples e conveniente.
 </p>
   
