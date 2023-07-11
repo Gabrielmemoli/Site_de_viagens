@@ -1,5 +1,7 @@
 # Nome do Projeto: TravelDreams
-<img src="https://github.com/Gabrielmemoli/Site_de_viagens/assets/75430972/1cf1effc-3d9f-4959-bf0a-c5d966f665fc" width="300" style:"justify-content:center" /> 
+<div style="display: flex; justify-content: center;">
+<img src="https://github.com/Gabrielmemoli/Site_de_viagens/assets/75430972/1cf1effc-3d9f-4959-bf0a-c5d966f665fc" width="300" /> 
+</div>
 
 Descrição:
 O TravelDreams é um site de viagens que tem como objetivo proporcionar aos usuários uma experiência única ao planejar suas próximas aventuras. Com uma interface amigável e recursos avançados, o site oferece uma ampla gama de destinos, pacotes turísticos e informações úteis para ajudar os viajantes a explorar o mundo de maneira simples e conveniente.
