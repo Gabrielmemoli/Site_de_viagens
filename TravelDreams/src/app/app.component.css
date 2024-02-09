@@ -1,0 +1,148 @@
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3f5067; /* fundo cinza */
+  }
+  
+  .header .imgLogo {
+    width: 140px; /* ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-left: 30px;
+  }
+  
+  .header .login {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .login button {
+    background-color: transparent; /* remover o fundo do botão */
+    border: none; /* remover a borda do botão */
+    padding: 0; /* remover o preenchimento interno do botão */
+    margin-left: 10px; /* espaço entre o botão e o ícone */
+    margin-right: 30px;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 700;
+    transition: .3s all;
+  }
+
+  .header .login button:hover {
+    transform: scale(1.1);
+  }
+  
+  .header .login i {
+    font-size: 40px; /* ajuste o tamanho do ícone conforme necessário */
+    font-weight: bold;
+    color: black;
+  }
+
+  /* OPÇOES */
+  .opcoes {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+  }
+  
+  .opcao {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .opcao i {
+    font-size: 24px;
+  }
+  
+  .opcao span {
+    margin-top: 1px; /* Espaçamento entre o ícone e o texto */
+  }
+
+  .opcao button {
+    background-color: transparent; /* remover o fundo do botão */
+    border: none; /* remover a borda do botão */
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 700;
+  }
+
+  .opcao button:hover {
+    transform: scale(1.2);
+  }
+
+  .banner .imgBanner{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+  }
+
+/* BANNER */
+  .retangulo {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 30%;
+    background-color: #3f5067;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+  }
+  
+  .retangulo input {
+    margin-bottom: 10px;
+  }
+  
+  .retangulo p {
+    margin-top: 10px;
+  }
+
+  .cima {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .cima h1 {
+    color: yellow;
+    font-size: 30px;
+  }
+  
+  .cima input[type="checkbox"] {
+    margin-left: 20px; /* Adiciona espaço entre os checkboxes */
+  }
+
+  .baixo {
+    display: flex;
+    flex-direction: row; /* Ajusta o layout para os elementos ficarem em linha */
+    align-items: flex-end; /* Alinha os elementos pela base */
+    justify-content: space-between; /* Distribui o espaço igualmente entre os elementos */
+  }
+  
+  .input-group {
+    position: relative;
+    margin-right: 10px; /* Adiciona espaço entre os grupos de input */
+  }
+  
+  .input-group input {
+    padding-right: 30px; /* Adiciona espaço para o ícone */
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+  }
+  
+  button {
+    background-color: yellow;
+  }

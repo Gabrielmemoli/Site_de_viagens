@@ -1,54 +1,89 @@
-<style>
-  .faixa-cima{
-    background-color: #3f5067 !important;
-    width: 100%;
-    height: 50px;
-    margin: 0,0,0,0;
-    display: flex;
-  }
-  .container{
-    width: 100%;
-    margin: 0,0,0,0;
-  }
-  .imgLogo {
-    width: 10%;
-    height: 100%;
-  }
-  .login{
-    margin-left: 82%;
-    width:150px;
-  }
-  .menu{
-    width: 100%;
-  }
-  .navbar{
-    margin-left: 50%;
-  }
-  .icon-menu{
-    height: 60px;
-    width: 60px;
-  }
-</style>
-<div>
-  <div class="faixa-cima">
-    <img src="../assets/Logo.png" class="imgLogo">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOTSTRAP ICONS-->
+  <title>Travel Dreams</title>
+  <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
 
-    <div class="row login">     
-      <button type="button" class="btn btn-primary btn-sm">Small button</button>
+  <div class="header">
+    <img src="../assets/logo_sem_fundo.png" class="imgLogo">
+  
+    <div class="login">     
+      <i class="bi bi-person-circle"></i>
+      <button type="button" class="btn btn-primary btn-sm"> LOGIN </button>
     </div>
   </div>
-  <div class="menu">
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="icon-menu"><i class="bi bi-0-circle"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
 
-</div>
+  <section class="opcoes">
+
+    <div class="opcao">
+      <i class="bi bi-coin"></i>
+      <button>Desconto</button>
+    </div>
+    
+    <div class="opcao">
+      <i class="bi bi-suitcase-lg"></i>
+      <button>Pacotes</button>
+    </div>
+  
+    <div class="opcao">
+      <i class="bi bi-buildings"></i>
+      <button>Hoteis</button>
+    </div>
+
+    <div class="opcao">
+      <i class="bi bi-airplane-engines"></i>
+      <button>Voos</button>
+    </div>
+
+    <div class="opcao">
+      <i class="bi bi-bus-front"></i>
+      <button>Onibus</button>
+    </div>
+
+    <div class="opcao">
+      <i class="bi bi-car-front"></i>
+      <button>Carro</button>
+    </div>
+
+  </section>
+
+  <section class="banner">
+    <img src="../assets/banner.png" alt="banner" class="imgBanner">
+    <div class="retangulo">
+      <div class="cima">
+        <h1>Passagens aéreas</h1>
+        <input type="checkbox">ida e volta
+        <input type="checkbox">somente ida
+      </div>
+
+      <div class="baixo">
+        <div class="input-group">
+          <input type="text" placeholder="Input 1">
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="input-group">
+          <input type="text" placeholder="Input 2">
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="input-group">
+          <input type="text" placeholder="Input 3">
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="input-group">
+          <input type="text" placeholder="Input 4">
+          <i class="bi bi-search"></i>
+        </div>
+        <button>Buscar</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
